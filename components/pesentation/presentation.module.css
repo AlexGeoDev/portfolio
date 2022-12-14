@@ -1,0 +1,37 @@
+.presentation {
+    margin-top: 8rem;
+    padding-bottom: 2rem;
+    width: 80vw;
+    display: flex;
+    justify-content: center;    
+  }
+  .content_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .content_title_h1 {
+    display: flex;
+    justify-content: flex-start;
+    color: cyan;
+  }
+  .content_title_h2 {
+    display: flex;
+    justify-content: flex-start;
+    color: #258ff3
+  }
+  .content_title_h3 {
+    display: flex;
+    justify-content: flex-start;
+    color: #8892b0;
+  }
+  .color_devgis {
+    color: cyan;
+  }
+  .color_devweb{
+    color: #258ff3;
+  }
+  .description {
+    margin-top: 20px;
+    font-size: 19px;
+  }

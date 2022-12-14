@@ -1,0 +1,14 @@
+.contact {
+    padding: 80px 20px;
+    border: 2px rgb(255, 143, 38) solid;
+}
+
+.title_contact {
+    padding: 1rem 0 2rem 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.title {
+    color:darkturquoise;
+}
