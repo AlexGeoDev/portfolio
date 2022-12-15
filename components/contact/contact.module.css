@@ -1,6 +1,7 @@
 .contact {
-    padding: 80px 20px;
-    border: 2px rgb(255, 143, 38) solid;
+    width: 80vw;
+    margin-top: 4rem;
+    padding-bottom: 10rem;
 }
 
 .title_contact {
@@ -11,4 +12,9 @@
 
 .title {
     color:darkturquoise;
+}
+.contact_logos {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }

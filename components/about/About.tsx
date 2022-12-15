@@ -6,58 +6,14 @@ const About = () => {
     <>
       <section className={styles.about}>
         <div className={styles.title_about}>
-          <h2 className={styles.title}>Sobre mi</h2>
-        </div>        
-        <p>This is a section of about</p>
+          <h2 className={styles.title}>About me</h2>
+        </div>
+        <p>I studied Engineer Cadastral and Geodesy at University Distrital in Bogota, Colombia.</p>
         <br />
-        <p>In this section I'm going to talk about me</p>
-        <br />
-        <p>A brief resume about I know and I can do</p>
-        <br />
-
-        <p>This is a section of about</p>
-        <br />
-        <p>In this section I'm going to talk about me</p>
-        <br />
-        <p>A brief resume about I know and I can do</p>
-        <br />
-
-        <p>This is a section of about</p>
-        <br />
-        <p>In this section I'm going to talk about me</p>
-        <br />
-        <p>A brief resume about I know and I can do</p>
-        <br />
-
-        <p>This is a section of about</p>
-        <br />
-        <p>In this section I'm going to talk about me</p>
-        <br />
-        <p>A brief resume about I know and I can do</p>
-        <br />
-
-        <p>This is a section of about</p>
-        <br />
-        <p>In this section I'm going to talk about me</p>
-        <br />
-        <p>A brief resume about I know and I can do</p>
-        <br />
-
-        <p>This is a section of about</p>
-        <br />
-        <p>In this section I'm going to talk about me</p>
-        <br />
-        <p>A brief resume about I know and I can do</p>
-        <br />
-
-        <p>This is a section of about</p>
-        <br />
-        <p>In this section I'm going to talk about me</p>
-        <br />
-        <p>A brief resume about I know and I can do</p>
-        <br />
-      </section>
-      
+        <p>When I  was in last semesters, I learned programming and I liked very much, I decided
+          focused me in web develop mixing it with Geographic Information System (GIS).
+        </p>
+      </section>      
     </>
   )
 }

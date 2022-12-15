@@ -1,0 +1,18 @@
+.projects {
+    margin-top: 3rem;
+    border: 1px #258ff3 solid;
+    border-radius: 15px;
+    padding: 2rem;
+}
+.h2{
+    color: cyan;
+}
+.image_project{
+    margin-top: 20px;
+}
+.projects_link{
+    text-decoration: none !important;
+}
+.projects_ul {
+    width: 70vw;
+}

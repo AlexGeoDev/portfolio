@@ -8,6 +8,10 @@ const MENU_LIST = [
     href:"/"
   },
   {
+    text: "Projects",
+    href: "#projects-section"
+  },
+  {
     text: "About",
     href:"#about-section"
   },

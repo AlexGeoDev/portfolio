@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Projects from '../components/projects/Projects'
 import About from '../components/about/About'
 import Contact from '../components/contact/Contact'
 import Presentation from '../components/pesentation/Presentation'
@@ -36,6 +37,11 @@ const Home = () => {
           <Presentation />
         </div>
         <div 
+          className='projects'
+          id='projects-section'>
+          <Projects />
+        </div>
+        <div 
           className='about'
           id='about-section'>
           <About />
@@ -61,7 +67,6 @@ const Home = () => {
             z-index: 1;
           }
           .container {
-            border: 1px cyan solid;
             margin: 0rem 0 2rem 0;
             display: flex;
             justify-content: center;
@@ -72,6 +77,10 @@ const Home = () => {
             opacity: 0.9;
             display: flex;
             justify-content: center;
+            z-index: 2;
+          }
+          .projects {            
+            opacity: 0.9;
             z-index: 2;
           }
           .about {

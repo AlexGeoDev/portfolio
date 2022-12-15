@@ -1,5 +1,8 @@
 import React from 'react';
 import styles from './contact.module.css';
+import Image from 'next/image'
+import Link from 'next/link';
+
 const Contact = () => {
   return (
     <>
@@ -7,50 +10,35 @@ const Contact = () => {
         <div className={styles.title_contact}>
           <h2 className={styles.title}>Contactame</h2>
         </div>
-        <p>Esta es la seccion de  contacto, 
-          es mas delgada que la sección de about, 
-          por eso estoy escribiendo está carreta 
-          para ver si aumenta el grosor de esta sección.</p> 
+        <p>Please, write me to my mail: <b>jaabec@gmail.com</b></p>
         <br />
-        <p>Tiene q ser bien largota</p>
-        <br />
-        <p>tiene que ocupar requetearto espacio.</p>
+        <p>Or you can contact me in:</p>
+        <div className={styles.contact_logos}>
+        <Link 
+          href={'https://github.com/AlexGeoDev/portfolio'} 
+          target={'_blank'}>
 
-        <p>Esta es la seccion de  contacto</p> 
-        <br />
-        <p>Tiene q ser bien largota</p>
-        <br />
-        <p>tiene que ocupar requetearto espacio.</p>
+          <Image 
+            src='/images/github_logo.png'
+            width={65}
+            height={65}
+            alt='logo de github'
+            />          
+        </Link>
 
-        <p>Esta es la seccion de  contacto</p> 
-        <br />
-        <p>Tiene q ser bien largota</p>
-        <br />
-        <p>tiene que ocupar requetearto espacio.</p>
-
-        <p>Esta es la seccion de  contacto</p> 
-        <br />
-        <p>Tiene q ser bien largota</p>
-        <br />
-        <p>tiene que ocupar requetearto espacio.</p>
-
-        <p>Esta es la seccion de  contacto</p> 
-        <br />
-        <p>Tiene q ser bien largota</p>
-        <br />
-        <p>tiene que ocupar requetearto espacio.</p>
-
-        <p>Esta es la seccion de  contacto</p> 
-        <br />
-        <p>Tiene q ser bien largota</p>
-        <br />
-        <p>tiene que ocupar requetearto espacio.</p>
-
-        <p>Esta es la seccion de  contacto</p> 
-        <br />
-        <p>Tiene q ser bien largota</p>
-        <br />
-        <p>tiene que ocupar requetearto espacio.</p>
+        <Link 
+          href={'https://walink.co/66f47f'}
+          target={'_blank'}>
+          <Image 
+            src={'/images/uasap.png'}
+            width={120}
+            height={73}
+            alt='logo de whatsapp'
+            />
+        </Link>
+        </div>
+        
+        
       </section>       
     </>
   )
