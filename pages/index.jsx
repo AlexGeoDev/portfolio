@@ -1,36 +1,15 @@
 import React from 'react'
-import Image from 'next/image'
 import Projects from '../components/projects/Projects'
 import About from '../components/about/About'
 import Contact from '../components/contact/Contact'
 import Presentation from '../components/pesentation/Presentation'
+import Footer from '../components/footer/Footer'
 
 const Home = () => {
   return (
     <>
       <div className='bckg-image'>
-        <div className='div-image'>
-          <Image 
-            src='/images/pngwing.png'
-            width={100}
-            height={100}
-            alt='React.js icon'
-          />
-
-          <Image 
-            src='/images/esri.png'
-            width={100}
-            height={100}
-            alt='Esri icon'
-          />
-
-          <Image 
-            src='/images/pgsql.png'
-            width={100}
-            height={141}
-            alt='Postgresql icon'
-          />
-        </div>
+        
       </div>
       <div className='container'>
         <div className='presentation'>
@@ -46,10 +25,8 @@ const Home = () => {
           id='about-section'>
           <About />
         </div>
-        <div 
-          className='contact'
-          id='contact-section'>
-          <Contact />
+        <div>
+          <Footer/>
         </div>
       </div>
       <style jsx>{`
@@ -84,10 +61,6 @@ const Home = () => {
             z-index: 2;
           }
           .about {
-            opacity: 0.9;
-            z-index: 2;
-          }
-          .contact {
             opacity: 0.9;
             z-index: 2;
           }

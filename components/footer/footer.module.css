@@ -1,0 +1,93 @@
+.futer {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.futer_title {
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+}
+.futer_titleColor{
+  color:darkturquoise;
+}
+
+.futer_mailLocation {
+  margin: 1rem 0;
+}
+
+.futer_mailText {
+  flex-direction: column;
+}
+
+.futer_mail {
+  margin-top: 0.5rem;
+  width: 175px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.futer_location {
+  margin-top: 0.7rem;
+  width: 165px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.futer_media {
+  margin-top: 1rem;
+}
+
+.futer_icons {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 425px) {
+  .futer{
+    width: 360px;
+  }
+}
+
+@media (min-width: 768px) {
+  .futer{
+    width: 615px;
+  }
+
+  .futer_mailText {
+    width: 62%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .futer_mailLocation {    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .futer_iconsText {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .futer_icons {
+    width: 55%;
+    margin: 0 auto;
+    }
+}
+
+@media (min-width: 900px) {
+  .futer {
+    width: 900px;
+  }
+  .futer_mailText {
+    width: 380px;
+  }
+}

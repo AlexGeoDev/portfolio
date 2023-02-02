@@ -1,9 +1,18 @@
 .presentation {
-    margin-top: 8rem;
+    /* border: 1px red solid; */
+    margin: 2rem auto;
     padding-bottom: 4rem;
     width: 80vw;
     display: flex;
-    justify-content: center;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .presentation_contentImage {
+    /* border: 1px red solid; */
+  }
+  .presentation_image {
+    border-radius: 50%;
   }
   .content_title {
     margin-bottom: 3rem;

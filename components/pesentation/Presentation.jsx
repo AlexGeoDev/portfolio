@@ -6,6 +6,17 @@ const Presentation = () => {
   return (
     <>
       <div className={styles.presentation}>
+        <div className={styles.presentation_contentImage}>
+          <picture>
+            <Image 
+            src='/images/perfil02.jpg'
+            width={1433 / 5}
+            height={1433 / 5}
+            className={styles.presentation_image}
+            alt='Picture of Alexander Arismendy, frontend developer'
+          />
+          </picture>
+        </div>
         <div className={styles.content_title}>
           <h3 className={styles.content_title_h3}>Hi, I'm</h3>
           <br />
