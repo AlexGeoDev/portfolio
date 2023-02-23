@@ -9,6 +9,7 @@
 
 .title {
     /* width: 90vw; */
+    margin: 2rem 0;
     display: flex;
     justify-content: flex-start;
     color:darkturquoise;
@@ -22,6 +23,11 @@
     align-items: flex-start;
 }
 
+@media (min-width: 425px) {
+    .about {
+        width: 80vw;
+    }
+}
 
 @media (min-width: 768px) {
     .about {

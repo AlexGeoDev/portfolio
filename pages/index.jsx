@@ -44,7 +44,6 @@ const Home = () => {
             z-index: 1;
           }
           .container {
-            {/* border: 1px purple solid; */}
             margin: 0 0 2rem 0;
             display: flex;
             justify-content: center;

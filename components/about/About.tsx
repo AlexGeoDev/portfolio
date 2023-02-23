@@ -6,8 +6,6 @@ const About = () => {
     <>
       <section className={styles.about}>
         <h2 className={styles.title}>About me</h2>
-        <div className={styles.title_about}>
-        </div>
         <div>      
           <p>I studied Engineer Cadastral and Geodesy at University Distrital in Bogota, Colombia.</p>
           <br />
