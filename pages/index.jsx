@@ -44,8 +44,8 @@ const Home = () => {
             z-index: 1;
           }
           .container {
-            border: 1px purple solid;
-            margin: 0rem 0 2rem 0;
+            {/* border: 1px purple solid; */}
+            margin: 0 0 2rem 0;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -58,7 +58,7 @@ const Home = () => {
             z-index: 2;
           }
           .projects {
-            margin-top: 3rem;
+            margin-top: 2rem;
             opacity: 0.9;
             z-index: 2;
           }

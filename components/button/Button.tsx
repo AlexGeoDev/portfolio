@@ -1,11 +1,21 @@
+import Link from 'next/link'
 import React from 'react'
 import styles from './button.module.css'
 
-const Button = () => {
+function Button({textButton, urlProject}:any) {
+    
   return (
     <>
       <button className={styles.button}>
-        <span className={styles.button_span}>ver</span>
+        <Link 
+          href={urlProject}
+          target='_blank'
+          className={styles.button_span}
+          >
+          <span>
+            {textButton}
+          </span>
+        </Link>
       </button>
     </>
   )

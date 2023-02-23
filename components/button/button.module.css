@@ -15,8 +15,9 @@
   transition: .3s;
 }
 .button_span {
+  text-decoration: none;
   background-color: #0a192f;
-  padding: 16px 24px;
+  padding: 8px 24px;
   border-radius: 6px;
   transition: .3s;
 }

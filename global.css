@@ -15,6 +15,10 @@ header {
     z-index: 10;
 }
 
+.nav_inside {
+    width: 100vw;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 25%);
+}
 .nav {
     width: 90vw;
     margin: 0 auto;
@@ -23,6 +27,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: transparent;
+    
 }
 
 .logo {

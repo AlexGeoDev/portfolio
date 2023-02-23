@@ -30,41 +30,44 @@ const Navbar = () => {
   return (
     <>
       <header>
-        <nav className='nav'>
-          <Link 
-            className='logo'
-            onClick={() => setActiveIdx(0)}
-            href="/">
-            <h3>Alexgeodev</h3>
-          </Link>
+        <div className='nav_inside'>
+          <nav className='nav'>
+            <Link
+              className='logo'
+              onClick={() => setActiveIdx(0)}
+              href="/">
+              <h3>Alexgeodev</h3>
+            </Link>
 
-          <div 
-            onClick={() => setNavActive(!navActive)}
-            className='nav__menu-bar'>
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
+            <div 
+              onClick={() => setNavActive(!navActive)}
+              className='nav__menu-bar'>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
 
-          <div className={`${navActive ? "active" : ""}
-            nav__menu-list
-          `}>
-            {MENU_LIST.map((menu, idx) => {
-              return (
-                <div 
-                  onClick={() => {
-                    setActiveIdx(idx);
-                    setNavActive(false); 
-                  }}
-                  key={menu.text}>
-                  <NavItem 
-                    active={activeIdx === idx}
-                    {...menu} />
-                </div>
-              )})
-            }
-          </div>
-        </nav>
+            <div className={`${navActive ? "active" : ""}
+              nav__menu-list
+            `}>
+              {MENU_LIST.map((menu, idx) => {
+                return (
+                  <div 
+                    onClick={() => {
+                      setActiveIdx(idx);
+                      setNavActive(false); 
+                    }}
+                    key={menu.text}>
+                    <NavItem 
+                      active={activeIdx === idx}
+                      {...menu} />
+                  </div>
+                )})
+              }
+            </div>
+            
+          </nav>            
+        </div>
       </header>
     </>
   )

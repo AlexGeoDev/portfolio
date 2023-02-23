@@ -1,14 +1,36 @@
 .about {
-    margin-top: 2rem;
-    padding: 70px 20px;
-}
-
-.title_about {
-    padding: 1rem 0 2rem 0;
+    width: 90vw;
+    margin: 1rem auto;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .title {
+    /* width: 90vw; */
+    display: flex;
+    justify-content: flex-start;
     color:darkturquoise;
+}
+
+.title_about {
+    margin-top: 2rem;
+    border: 1px cyan solid;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+@media (min-width: 768px) {
+    .about {
+        width: 85vw;
+    }
+}
+
+@media (min-width: 1024px) {
+    .about {
+        width: 80vw;
+    }
 }

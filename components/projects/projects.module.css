@@ -1,15 +1,19 @@
+.subtitle_projects {
+    margin: 1rem auto;
+    color: cyan;
+    display: flex;
+    justify-content: center;
+}
 .projects {
+    width: 90vw;
     margin-top: 1rem;
     border: 1px #258ff3 solid;
-    /* border-radius: 15px; */
     padding: 0;
-    min-height: 286px;
+    min-height: auto;
     display: flex;
     flex-direction: column;
 }
-.h2{
-    color: cyan;
-}
+
 .image_project{
     margin: 0;
 }
@@ -21,12 +25,11 @@
 }
 .text_card {
     padding: 1rem;
-    width: 265px
-    ;
+    width: 89vw;
 }
 .resume_project {
     margin-top: 0.5rem;
-    text-align: justify;
+    text-align: left;
 }
 .projects_languages {
     margin: 0 auto;
@@ -45,7 +48,11 @@
 .react_logo2 {
     border: 1px cyan solid;
 }
-
+.button_info {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
 @media (prefers-reduced-motion: no-preference) {
     .react_logo {
       animation: react_logo-spin infinite 20s linear;
@@ -58,5 +65,40 @@
     }
     to {
       transform: rotate(360deg);
+    }
+}
+
+@media (min-width: 425px) {
+    .image_projects {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text_card {
+        /* border: 3px yellow solid; */
+        padding: 1rem;
+        width: 89vw;
+    }
+}
+@media (min-width: 768px) {
+    .container_projects {
+        width: 85vw;
+        /* border: 1px red solid; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    .projects {
+        width: 40vw;
+        margin: auto;
+
+    }
+    .text_card {
+        /* border: 3px yellow solid; */
+        padding: 1rem;
+        width: 39vw;
     }
 }
