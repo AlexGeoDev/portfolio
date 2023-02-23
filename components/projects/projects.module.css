@@ -1,18 +1,62 @@
 .projects {
-    margin-top: 3rem;
+    margin-top: 1rem;
     border: 1px #258ff3 solid;
-    border-radius: 15px;
-    padding: 2rem;
+    /* border-radius: 15px; */
+    padding: 0;
+    min-height: 286px;
+    display: flex;
+    flex-direction: column;
 }
 .h2{
     color: cyan;
 }
 .image_project{
-    margin-top: 20px;
+    margin: 0;
 }
 .projects_link{
     text-decoration: none !important;
 }
 .projects_ul {
     width: 70vw;
+}
+.text_card {
+    padding: 1rem;
+    width: 265px
+    ;
+}
+.resume_project {
+    margin-top: 0.5rem;
+    text-align: justify;
+}
+.projects_languages {
+    margin: 0 auto;
+    width: 160px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.projects_languages__x {
+    margin-top: 1rem;
+    /* border: 1px red solid; */
+    /* pointer-events: none; */
+}
+
+.react_logo2 {
+    border: 1px cyan solid;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .react_logo {
+      animation: react_logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes react_logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
 }

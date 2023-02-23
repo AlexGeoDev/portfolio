@@ -35,7 +35,7 @@ const Navbar = () => {
             className='logo'
             onClick={() => setActiveIdx(0)}
             href="/">
-            <h1>AlexGeodev</h1>
+            <h3>Alexgeodev</h3>
           </Link>
 
           <div 

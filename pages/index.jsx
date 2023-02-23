@@ -31,7 +31,7 @@ const Home = () => {
       </div>
       <style jsx>{`
           .bckg-image {
-            margin-top: 2rem;
+            margin-top: 1rem;
             display: flex;
             justify-content: center;
           }
@@ -44,6 +44,7 @@ const Home = () => {
             z-index: 1;
           }
           .container {
+            border: 1px purple solid;
             margin: 0rem 0 2rem 0;
             display: flex;
             justify-content: center;
@@ -56,7 +57,8 @@ const Home = () => {
             justify-content: center;
             z-index: 2;
           }
-          .projects {            
+          .projects {
+            margin-top: 3rem;
             opacity: 0.9;
             z-index: 2;
           }

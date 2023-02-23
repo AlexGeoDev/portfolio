@@ -1,26 +1,22 @@
 .presentation {
-    /* border: 1px red solid; */
-    margin: 2rem auto;
-    padding-bottom: 4rem;
-    width: 80vw;
+    margin: 0rem auto;
+    width: 90vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .presentation_contentImage {
-    /* border: 1px red solid; */
-  }
   .presentation_image {
     border-radius: 50%;
   }
   .content_title {
-    margin-bottom: 3rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    align-items: center;
   }
   .content_title_h1 {
+    margin-top: 5px;
     display: flex;
     justify-content: flex-start;
     color: cyan;
@@ -35,13 +31,43 @@
     justify-content: flex-start;
     color: #8892b0;
   }
-  .color_devgis {
+  /* .color_devgis {
     color: cyan;
   }
   .color_devweb{
     color: #258ff3;
-  }
+  } */
   .description {
-    margin-top: 20px;
+    text-align: center;
     font-size: 19px;
+  }
+
+  @media (min-width: 425px) {
+    .presentation {
+      width: 80vw;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .presentation {
+      width: 85vw;
+      flex-direction: row;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-around;
+    }
+    .content_title {
+      margin-top: 0;
+      height: 250px;
+      width: calc(55%);
+      display: flex;
+      justify-content: center;      
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .presentation {
+      width: 80vw;
+      margin-top: 1rem;
+    }
   }
