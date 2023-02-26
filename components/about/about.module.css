@@ -26,6 +26,7 @@
 @media (min-width: 425px) {
     .about {
         width: 80vw;
+        border: 1px red solid;
     }
 }
 

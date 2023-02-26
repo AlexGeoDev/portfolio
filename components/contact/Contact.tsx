@@ -8,7 +8,7 @@ const Contact = () => {
     <>
       <section className={styles.contact}>     
         <div className={styles.title_contact}>
-          <h2 className={styles.title}>Contactame</h2>
+          <h2 className={styles.title}>Contact to me</h2>
         </div>
         <p>Please, write me to my mail: <b>jaabec@gmail.com</b></p>
         <br />

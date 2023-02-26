@@ -1,14 +1,15 @@
 .futer {
-  width: 300px;
+  width: 90vw;
   display: flex;
   flex-direction: column;
 }
 .futer_title {
-  margin: 1rem auto;
+  margin: 2rem auto;
   display: flex;
   justify-content: center;
 }
 .futer_titleColor{
+  font-size: 11.5vw;
   color:darkturquoise;
 }
 
@@ -50,13 +51,17 @@
 
 @media (min-width: 425px) {
   .futer{
-    width: 360px;
+    width: 80vw;
   }
 }
 
 @media (min-width: 768px) {
   .futer{
     width: 85vw;
+  }
+  .futer_titleColor {
+    padding: 40px;
+    font-size: calc(4rem + 1vw);
   }
 
   .futer_mailText {

@@ -1,0 +1,72 @@
+.intro {
+  height: 100vh;
+  max-height: 768px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0a192f;
+  background-image: url(
+    'https://res.cloudinary.com/dw3tnuvyb/image/upload/c_scale,h_768,o_20,q_100,w_1366/v1677354768/wallpaper_ncczgc.webp'
+  );
+}
+
+.intro_title {
+  opacity: 0.7;
+  width: 90vw;
+  font-weight: 800;
+  font-size: 16vw;
+  color: aqua;
+  line-height: 1em;
+}
+
+.intro_subtitle {
+  width: 90vw;
+  margin-top: 1rem;
+  font-weight: 300;
+  font-size: 5vw;
+  line-height: 2rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+@media (min-width: 425px) {
+  .intro_title {
+    width: 80vw;
+  }
+  .intro_subtitle {
+    width: 80vw;
+  }
+}
+@media (min-width: 768px) {
+  .intro_title {
+    width: 100vw;
+    font-size: calc(4rem + 2.5vw);
+    padding-left: 15vw;
+  }
+  .intro_subtitle {
+    width: 100vw;
+    font-size: 2rem;
+    padding-left: 15vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .intro{
+    background-color: #0a192f;
+    background-image: url(
+    'https://res.cloudinary.com/dw3tnuvyb/image/upload/c_scale,o_20,q_100,w_1024/v1677354768/wallpaper_ncczgc.webp'
+  );
+  }  
+}
+
+@media (min-width: 1024px) {
+  .intro{
+    max-height: 960px;
+    background-color: #0a192f;
+    background-image: url(
+      'https://res.cloudinary.com/dw3tnuvyb/image/upload/c_scale,o_80,w_1440/v1677354768/wallpaper_ncczgc.webp'
+  );
+  }  
+}

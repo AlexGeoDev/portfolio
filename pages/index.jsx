@@ -1,18 +1,31 @@
 import React from 'react'
 import Projects from '../components/projects/Projects'
+import Works from '../components/works/Works'
 import About from '../components/about/About'
 import Contact from '../components/contact/Contact'
+import Intro from "../components/intro/Intro";
 import Presentation from '../components/pesentation/Presentation'
 import Footer from '../components/footer/Footer'
+import Navbar from '../components/navbar/Navbar'
 
 const Home = () => {
   return (
     <>
-      <div className='bckg-image'>
+      {/* <div className='bckg-image'>
         
-      </div>
+      </div> */}
       <div className='container'>
-        <div className='presentation'>
+        <section>
+          <header>
+            <Navbar />
+          </header>
+          <div>
+            <Intro />
+          </div>
+        </section>
+        <div
+        className='about'
+        id='about-section'>
           <Presentation />
         </div>
         <div 
@@ -20,35 +33,28 @@ const Home = () => {
           id='projects-section'>
           <Projects />
         </div>
-        <div 
+        <div>
+          <Works />
+        </div>
+        {/* <div 
           className='about'
           id='about-section'>
           <About />
-        </div>
-        <div>
+        </div> */}
+        <div
+          className='contact'
+          id='contact-section'>
           <Footer/>
         </div>
       </div>
       <style jsx>{`
-          .bckg-image {
-            margin-top: 1rem;
-            display: flex;
-            justify-content: center;
-          }
-          .div-image {
-            display: flex;
-            height: 480px;
-            flex-direction: column;
-            justify-content: space-between;
-            position: fixed;
-            z-index: 1;
-          }
           .container {
-            margin: 0 0 2rem 0;
+            padding: 0 0 2rem 0;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            background-color: #0a192f;
           }
           .presentation {
             opacity: 0.9;
@@ -61,7 +67,8 @@ const Home = () => {
             opacity: 0.9;
             z-index: 2;
           }
-          .about {
+          .contact {
+            margin-top: 2rem;
             opacity: 0.9;
             z-index: 2;
           }

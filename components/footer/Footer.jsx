@@ -7,9 +7,9 @@ const Footer = () => {
   return (
     <>
       <footer className={styles.futer}>
-        <header className={styles.futer_title}>
+        <div className={styles.futer_title}>
           <h2 className={styles.futer_titleColor}>Contact</h2>
-        </header>
+        </div>
         <div className={styles.futer_mailLocation}>
           <div className={styles.futer_mailText}>
             <p>Please, write to my email: </p>
