@@ -11,9 +11,6 @@ import Navbar from '../components/navbar/Navbar'
 const Home = () => {
   return (
     <>
-      {/* <div className='bckg-image'>
-        
-      </div> */}
       <div className='container'>
         <section>
           <header>
@@ -48,6 +45,11 @@ const Home = () => {
         </div>
       </div>
       <style jsx>{`
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+          }
           .container {
             padding: 0 0 2rem 0;
             display: flex;

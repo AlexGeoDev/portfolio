@@ -28,11 +28,14 @@ const Presentation = () => {
             Geographic Information System (GIS) developer specialized on 
             build exceptional digital experiences. 
           </p>
-          <p className={styles.description}>I studied Engineer Cadastral and Geodesy at University Distrital in Bogota, Colombia.</p>
-          <p className={styles.description}>When I  was in last semesters, I learned software development and I liked very much. After that
-            , I took the decisition and focused on web develop mixing it with Geographic Information System (GIS).
+          <p className={styles.description}>I studied Engineer Cadastral and Geodesy 
+          at Distrital University in Bogota, Colombia.</p>
+          <p className={styles.description}>When I  was in last year of university, I learned 
+          software development and I liked very much. After that,  I decided to focus on web 
+          development and combine it with Geographic Information System.
           </p>
-          <p className={styles.description}>You can find my in  content on youtube and github as Alexgeodev</p>
+          <p className={styles.description}>You can find my content and tutorials on YouTube 
+          and GitHub under the username Alexgeodev.</p>
         </div>
       </div>
     </section>

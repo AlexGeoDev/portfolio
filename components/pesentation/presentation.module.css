@@ -66,4 +66,7 @@
       display: flex;
       align-items: center;
     }
+    .description {
+      text-align: left;
+    }
   }
