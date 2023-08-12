@@ -64,7 +64,7 @@ const Projects = () => {
                   <div className={styles.button_info}>             
                     <Button 
                       textButton="Ver"
-                      urlProject="https://alexgeodev.github.io/geo-app/"
+                      urlProject="https://alexgeodev.github.io/Yos-Duit/"
                     />
                   </div>
                 </section>
